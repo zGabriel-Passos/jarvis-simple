@@ -42,7 +42,7 @@ Controle seu computador usando apenas sua voz! Assistente inteligente que execut
 ### 1. Clone o repositório
 
 ```bash
-git clone <seu-repo>
+git clone https://github.com/zGabriel-Passos/jarvis-simple.git
 cd jarvis-simple
 ```
 

@@ -1,0 +1,128 @@
+{
+  "wake_word": "",
+  "commands": [
+    {
+      "sentence": ["oi", "olá", "hey", "hello"],
+      "action": "greeting",
+      "keys": [],
+      "delay": 0,
+      "speak": "Olá! Sou o Jarvis, seu assistente de voz. Como posso ajudar?",
+      "no_execute": true
+    },
+    {
+      "sentence": ["como você está", "tudo bem", "how are you"],
+      "action": "status",
+      "keys": [],
+      "delay": 0,
+      "speak": "Estou ótimo! Pronto para executar seus comandos.",
+      "no_execute": true
+    },
+    {
+      "sentence": ["obrigado", "valeu", "thanks"],
+      "action": "thanks",
+      "keys": [],
+      "delay": 0,
+      "speak": "Por nada! Estou aqui para ajudar.",
+      "no_execute": true
+    },
+    {
+      "sentence": ["averiguar resenha"],
+      "action": "check_resenha",
+      "keys": [],
+      "delay": 0,
+      "speak": "Resenha confirmada, bora comer o Thiago!",
+      "no_execute": true
+    },
+    {
+      "sentence": ["abra o whatsapp", "open whatsapp"],
+      "action": "open_whatsapp",
+      "keys": ["win", "whatsapp"],
+      "delay": 0.5,
+      "speak": "Abrindo WhatsApp"
+    },
+    {
+      "sentence": ["abra o navegador", "open browser"],
+      "action": "open_browser",
+      "keys": ["win", "edge"],
+      "delay": 0.5,
+      "speak": "Abrindo navegador"
+    },
+    {
+      "sentence": ["feche a janela", "close window"],
+      "action": "close_window",
+      "keys": ["alt", "f4"],
+      "delay": 0.2,
+      "speak": "Fechando janela"
+    },
+    {
+      "sentence": ["nova aba", "new tab"],
+      "action": "new_tab",
+      "keys": ["ctrl", "t"],
+      "delay": 0.2,
+      "speak": "Abrindo nova aba"
+    },
+    {
+      "sentence": ["feche a aba", "close tab"],
+      "action": "close_tab",
+      "keys": ["ctrl", "w"],
+      "delay": 0.2,
+      "speak": "Fechando aba"
+    },
+    {
+      "sentence": ["atualize a página", "refresh page", "refresh"],
+      "action": "refresh",
+      "keys": ["f5"],
+      "delay": 0.2,
+      "speak": "Atualizando página"
+    },
+    {
+      "sentence": ["copiar", "copy"],
+      "action": "copy",
+      "keys": ["ctrl", "c"],
+      "delay": 0.1,
+      "speak": "Copiando"
+    },
+    {
+      "sentence": ["colar", "paste"],
+      "action": "paste",
+      "keys": ["ctrl", "v"],
+      "delay": 0.1,
+      "speak": "Colando"
+    },
+    {
+      "sentence": ["salvar", "save"],
+      "action": "save",
+      "keys": ["ctrl", "s"],
+      "delay": 0.2,
+      "speak": "Salvando"
+    },
+    {
+      "sentence": ["minimizar", "minimize"],
+      "action": "minimize",
+      "keys": ["win", "down"],
+      "delay": 0.3,
+      "speak": "Minimizando"
+    },
+    {
+      "sentence": ["maximizar", "maximize"],
+      "action": "maximize",
+      "keys": ["win", "up"],
+      "delay": 0.3,
+      "speak": "Maximizando"
+    },
+    {
+      "sentence": ["pressione", "press", "aperte"],
+      "action": "press_key",
+      "type": "dynamic",
+      "delay": 0.1,
+      "speak": "Pressionando tecla"
+    },
+    {
+      "sentence": ["escreva", "write"],
+      "action": "write_text",
+      "type": "dynamic",
+      "delay": 0.1,
+      "speak": "Escrevendo"
+    }
+  ]
+}

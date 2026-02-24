@@ -118,6 +118,14 @@
       "speak": "Pressionando tecla"
     },
     {
+      "sentence": ["combinação"],
+      "action": "press_combo",
+      "type": "dynamic_combo",
+      "keys": [],
+      "delay": 0.2,
+      "speak": "Executando combinação"
+    },
+    {
       "sentence": ["escreva", "write"],
       "action": "write_text",
       "type": "dynamic",

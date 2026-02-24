@@ -41,7 +41,7 @@ export default function ComandosPage() {
       <header className="border-b border-white/5 sticky top-0 bg-[#1a1614]/95 backdrop-blur-sm z-50">
         <div className="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
           <a href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-            <div className="w-10 h-10 bg-gradient-to-br from-[#d4724a] to-[#b85a35] rounded-full flex items-center justify-center">
+            <div className="w-10 h-10 bg-linear-to-br from-[#d4724a] to-[#b85a35] rounded-full flex items-center justify-center">
               <span className="text-xl">🎤</span>
             </div>
             <span className="text-xl font-bold">Jarvis</span>
@@ -213,7 +213,7 @@ export default function ComandosPage() {
         </section>
 
         {/* Dicas */}
-        <section className="bg-gradient-to-br from-[#2a2520] to-[#1a1614] border-2 border-[#d4724a]/30 rounded-3xl p-12">
+        <section className="bg-linear-to-br from-[#2a2520] to-[#1a1614] border-2 border-[#d4724a]/30 rounded-3xl p-12">
           <h2 className="text-3xl font-bold text-[#d4724a] mb-8 text-center">💡 Dicas de Uso</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
